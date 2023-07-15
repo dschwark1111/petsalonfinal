@@ -1,0 +1,63 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(images/bkreg.jpg);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 17rem;
+    margin-left: auto;
+    margin-right: 2rem;
+}
+
+a{
+    color: #040005;
+    font-size: 1.6rem;
+    text-decoration: none;
+    
+}
+
+header{
+    background-image: url(images/bannerreg.jpg);
+    height: 27vh;
+    text-align: right;
+    justify-content: space-between;
+    margin: auto;
+    padding-right: 2rem;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+p{
+    text-align: center;
+}
+
+.container{
+    text-align: left;
+}
+
+/*footer*/
+footer{
+    background-image: url(images/footerimage.jpg);
+    color: white;
+    margin-right: -2rem;
+    margin-top: 3rem;
+    height: 20vh;
+}
+
+.footerparagraph{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 2.2rem;
+}

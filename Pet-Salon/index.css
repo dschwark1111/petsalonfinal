@@ -1,0 +1,138 @@
+/*global*/
+
+
+
+/*header*/
+.site-header{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-image: url(/images/bannerreg.jpg);
+    height: 27vh;
+
+}
+body{
+    background-image: url(images/bkreg.jpg);
+}
+div.headercontainer{
+    text-align: right;
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+.site-header h1{
+    font-size: 2rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.site-header p{
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: -1px;
+    margin-bottom: -2.5rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:16rem;
+    margin-left: auto;
+    padding-right: 2.6rem;
+
+}
+
+a{
+    color: #040005;
+    font-size: 1.6rem;
+    text-decoration: none;
+    
+}
+
+/*main*/
+.service-item{
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.service-item p{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+img{
+    display: block;
+    width: 375px;
+    height: auto;
+    margin: auto;
+    align-items: center;
+
+}
+
+.services-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+    .service-item{
+        background-color: #c1afda;
+        margin-right: 1rem;
+        margin-bottom: auto;
+    }
+    .service-container h3{
+        font-size: 2rem;
+    }
+
+
+    .apptbtn{
+        width: 350px;
+        display: block;
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 5px;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 1rem;
+        padding-bottom: auto
+    }
+
+    h1.services{
+        text-align: center;
+    }
+
+    /*about*/
+
+    .about-section{
+        display: block;
+        justify-content: space-around;
+    }
+
+    .container-about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 3rem;
+        width: 900px;
+        background-color: #c1afda;
+    }
+
+    /*footer*/
+    footer{
+        background-image: url(images/footerimage.jpg);
+        color: white;
+        margin-top: 3rem;
+        height: 20vh;
+    }
+
+    .footerparagraph{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding-right: 2.2rem;
+    }
